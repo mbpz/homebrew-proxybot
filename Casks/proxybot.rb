@@ -1,9 +1,9 @@
 cask "proxybot" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.2.0"
-  sha256 arm:   "bedff7e059d1bebc04316b117639e3bbfbaefaa5dc9f30fecbc53c4044d0a4b2",
-         intel: "TODO: compute after first release - run on Intel Mac"
+  version "0.1.99-test"
+  sha256 arm:   "7edd0fa141f6e89d15bc8c2bee532c1f1a695842ed89c29f2ffd9c9798809857",
+         intel: "TODO"
 
   url "https://github.com/mbpz/proxybot/releases/download/v#{version}/ProxyBot-#{version}-mac-#{arch}.zip"
   name "ProxyBot"
